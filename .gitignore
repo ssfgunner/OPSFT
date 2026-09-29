@@ -1,0 +1,43 @@
+# Reproducible experiment artifacts
+checkpoints/
+verl/checkpoints/
+verl/outputs/
+data/
+analysis/
+code/
+code_eval/evalplus_results/
+code_eval/lcb_outputs/
+code_eval/logs/
+math_eval/eval_outputs/
+merged_models/
+logs/
+wandb/
+tensorboard_log/
+
+# Test and notebook caches
+.pytest_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Ray
+ray/
+
+# Temporary files
+*.tmp
+*.tmp.*
+*.log
+runtime.tsv
+
+# Model weights
+*.safetensors
+*.bin
+*.pt
