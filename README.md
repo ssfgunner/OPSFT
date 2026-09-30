@@ -178,9 +178,11 @@ OPSFT/
 ## Citation
 
 ```bibtex
-@inproceedings{opsft2027,
-  title={On-Policy Parameter-Update Directions Underlie Generalization in LLM Post-Training},
-  year={2027},
-  booktitle={Arxiv},
+@article{shen2026opsft,
+  title={On-Policy Parameter Update Direction Underlies Generalization in LLM Post-Training},
+  author={Shufan Shen and Zhongni Hou and Junshu Sun and Yufei Zhang and Wei Lin and Guojun Yin and Qingming Huang and Shuhui Wang},
+  journal={arXiv preprint arXiv:2609.36659},
+  year={2026},
+  url={https://arxiv.org/abs/2609.36659}
 }
 ```
