@@ -23,6 +23,8 @@ The fastest reproduction path does **not** require trajectory generation or GRPO
 > **Released assets**: teacher-verified trajectories are hosted in the [SFT-Trajectories dataset](https://huggingface.co/datasets/shufanshen/SFT-Trajectories); GRPO checkpoints are hosted as individual model repositories in the [OPSFT collection](https://huggingface.co/collections/shufanshen/opsft-6aa781ffb646c53df3707a3b).
 >
 > **Included data**: this Git repository contains the DeepMath-103K RL prompt parquet at `data/DeepMath-103K/train_filtered_level6.parquet`, AIME 2024/2025 GRPO validation parquets, four AIME/HMMT math evaluation JSONLs under `data/`, and HumanEval+/MBPP+ JSONLs under `code_eval/data/`. Large teacher trajectories, model checkpoints, Eurus RL prompts, DAPO prompts, and LiveCodeBench data are not committed; prepare those separately using the guides below.
+>
+> **Data not bundled with Git**: download Eurus RL prompts from the [G-OPD training dataset](https://huggingface.co/datasets/Keven16/G-OPD-Training-Data), DAPO prompts from [DAPO-Math-17k](https://huggingface.co/datasets/BytedTsinghua-SIA/DAPO-Math-17k), and LiveCodeBench v6 data from [code_generation_lite](https://huggingface.co/datasets/livecodebench/code_generation_lite). See [Dataset Configuration](docs/environment.md#dataset-configuration) for commands and expected paths; teacher trajectories and GRPO checkpoints are linked above.
 
 ### 1. Environment and Base Model
 
