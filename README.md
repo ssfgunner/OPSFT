@@ -21,6 +21,8 @@ OPSFT retains the efficiency of off-policy SFT while constraining updates to an 
 The fastest reproduction path does **not** require trajectory generation or GRPO training. Download our released teacher-verified trajectories and matching merged GRPO checkpoint, identify the on-policy direction locally, then train Vanilla SFT and OPSFT from the same base model.
 
 > **Released assets**: teacher-verified trajectories are hosted in the [SFT-Trajectories dataset](https://huggingface.co/datasets/shufanshen/SFT-Trajectories); GRPO checkpoints are hosted as individual model repositories in the [OPSFT collection](https://huggingface.co/collections/shufanshen/opsft-6aa781ffb646c53df3707a3b).
+>
+> **Included data**: this Git repository contains the DeepMath-103K RL prompt parquet at `data/DeepMath-103K/train_filtered_level6.parquet`, AIME 2024/2025 GRPO validation parquets, four AIME/HMMT math evaluation JSONLs under `data/`, and HumanEval+/MBPP+ JSONLs under `code_eval/data/`. Large teacher trajectories, model checkpoints, Eurus RL prompts, DAPO prompts, and LiveCodeBench data are not committed; prepare those separately using the guides below.
 
 ### 1. Environment and Base Model
 

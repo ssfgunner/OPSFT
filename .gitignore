@@ -2,8 +2,26 @@
 checkpoints/
 verl/checkpoints/
 verl/outputs/
-data/
+# Include only the small, documented prompt and evaluation datasets.
+/data/**
+!/data/DeepMath-103K/
+!/data/DeepMath-103K/train_filtered_level6.parquet
+!/data/aime24/
+!/data/aime24/test.jsonl
+!/data/aime24/test.parquet
+!/data/aime25/
+!/data/aime25/test.jsonl
+!/data/aime25/test.parquet
+!/data/hmmt25_feb/
+!/data/hmmt25_feb/test.jsonl
+!/data/hmmt25_nov/
+!/data/hmmt25_nov/test.jsonl
+/code_eval/data/**
+!/code_eval/data/HumanEvalPlus.jsonl
+!/code_eval/data/MbppPlus.jsonl
+# Do not ignore code packages whose directory name happens to be data.
 analysis/
+math/
 code/
 code_eval/evalplus_results/
 code_eval/lcb_outputs/
